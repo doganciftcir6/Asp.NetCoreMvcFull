@@ -1,0 +1,28 @@
+﻿@inject Udemy.Dependency.Services.ISingletonService _singletonServices;
+@inject Udemy.Dependency.Services.IScopedService _scopedServices;
+@inject Udemy.Dependency.Services.ITransientService _transientServices;
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>App</title>
+</head>
+<body>
+    
+   Singleton =  @ViewBag.Singleton
+   <br />
+   Singleton2 = @_singletonServices.GuidId
+   <br />
+   Transient =  @ViewBag.Transient
+   <br />
+   Transient2 = @_transientServices.GuidId
+   <br />
+   Scoped =     @ViewBag.Scoped
+   <br />
+   Scoped2 =    @_scopedServices.GuidId
+
+    <p>
+        Index Works.
+    </p>
+
+</body>
+</html>

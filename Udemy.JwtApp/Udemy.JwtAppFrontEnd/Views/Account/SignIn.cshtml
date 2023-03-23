@@ -1,0 +1,36 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <form asp-action="SignIn" asp-controller="Account" method="post" class="m-5 p-3">
+            <div class="mb-3">
+                <label class="form-label">Kullanıcı Adı: </label>
+                <input type="text" class="form-control" name="Username">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Şifre: </label>
+                <input type="password" class="form-control" name="Password">
+            </div>
+            <div asp-validation-summary="All" class="text-danger">
+
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Giriş Yap</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="~/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

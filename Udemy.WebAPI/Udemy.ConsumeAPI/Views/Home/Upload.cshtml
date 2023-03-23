@@ -1,0 +1,23 @@
+﻿
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Yeni Ürün Ekle</title>
+</head>
+<body>
+
+    <h1>Ürün Güncelle</h1>
+    <form method="post" asp-action="Upload" asp-controller="Home" enctype="multipart/form-data">
+        <label>Dosya Seçiniz:</label>
+        <input type="file" name="file" />
+        <br />
+        
+
+        <div>
+            <a asp-action="Index" asp-controller="Home">Geri Dön</a>
+            <button type="submit">Gönder</button>
+        </div>
+
+    </form>
+
+</body>
+</html>

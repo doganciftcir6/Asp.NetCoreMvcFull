@@ -1,0 +1,37 @@
+﻿@model List<UserListModel>
+
+@{
+    Layout = "~/views/shared/_layout.cshtml";
+}
+
+<table class="mt-4 table table-hover table-bordered table-sm">
+    <tr>
+        <td></td>
+    </tr>
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>SurName</td>
+            <td>Account Count</td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Surname</td>
+                <td><getAccountCount application-user-id="@item.Id"></getAccountCount></td>
+                <td>
+                    <a asp-action="Create" asp-controller="Account" asp-route-id="@item.Id">Create New Account</a>
+                    <a asp-action="GetByUserId" asp-controller="Account" asp-route-userId="@item.Id">Get Accounts</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+

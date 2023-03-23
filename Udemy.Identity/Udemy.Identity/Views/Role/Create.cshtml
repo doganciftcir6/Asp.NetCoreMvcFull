@@ -1,0 +1,17 @@
+﻿@model RoleCreateModel
+@{
+    Layout = "_Layout";
+}
+
+<form asp-action="Create" method="post" class="p-4 mx-auto w-75 shadow">
+    <div class="mb-3">
+        <label>Role Name: </label>
+        <span class="text-danger" asp-validation-for="@Model.Name"></span>
+        <input asp-for="@Model.Name" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+    <div class="text-danger mt-2" asp-validation-summary="ModelOnly">
+    </div>
+</form>

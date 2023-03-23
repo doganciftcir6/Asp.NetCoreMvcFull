@@ -1,0 +1,37 @@
+﻿@model UserListModel
+
+@{
+    Layout = "~/views/shared/_layout.cshtml";
+}
+
+<div class="row mt-3">
+    <div class="col-6">
+        <h3>Hesap Eklenecek Kişinin Bilgileri</h3>
+        <p>
+            Kullanıcının Adı: @Model.Name
+        </p>
+        <p>
+            Kullanıcının Soyadı: @Model.Surname
+        </p>
+        <p>
+            Kullanıcının Aktif Hesap Sayısı: <getAccountCount application-user-id="@Model.Id"></getAccountCount>
+        </p>
+    </div>
+    <div class="col-6">
+        <h4>Ekleme işlemi</h4>
+        <form method="post" asp-action="Create" asp-controller="Account">
+            <input type="hidden" name="ApplicationUserId" value="@Model.Id" />
+            <div class="mb-3">
+                <label class="form-label">Hesap Numarası: </label>
+                <input type="number" class="form-control" name="AccountNumber" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Bakiye: </label>
+                <input type="number" class="form-control" name="Balance" />
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary">Kaydet</button>
+            </div>
+        </form>
+    </div>
+</div>

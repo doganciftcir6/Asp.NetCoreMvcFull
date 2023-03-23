@@ -1,0 +1,31 @@
+﻿@model DirectoryInfo[]
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<a asp-action="Create">Create</a>
+<table class="table table-hover table-bordered">
+    <thead>
+        <tr>
+            <th>Ad</th>
+            <th>Oluşturulma Tarihi</th>
+            <th>Path</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.CreationTime</td>
+                <td>@item.FullName</td>
+                <td>
+                    <a asp-action="Remove" asp-route-folderName="@item.Name">Remove</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+   
+</table>
+

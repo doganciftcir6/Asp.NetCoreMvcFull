@@ -1,0 +1,11 @@
+C:\Users\dogan\OneDrive\Masaüstü\GerekliBilgiler\02.SenkronikAsenkronik\bin\Debug\02.SenkronikAsenkronik.exe.config
+C:\Users\dogan\OneDrive\Masaüstü\GerekliBilgiler\02.SenkronikAsenkronik\bin\Debug\02.SenkronikAsenkronik.exe
+C:\Users\dogan\OneDrive\Masaüstü\GerekliBilgiler\02.SenkronikAsenkronik\bin\Debug\02.SenkronikAsenkronik.pdb
+C:\Users\dogan\OneDrive\Masaüstü\GerekliBilgiler\02.SenkronikAsenkronik\obj\Debug\02.SenkronikAsenkronik.csproj.AssemblyReference.cache
+C:\Users\dogan\OneDrive\Masaüstü\GerekliBilgiler\02.SenkronikAsenkronik\obj\Debug\02.SenkronikAsenkronik.csproj.SuggestedBindingRedirects.cache
+C:\Users\dogan\OneDrive\Masaüstü\GerekliBilgiler\02.SenkronikAsenkronik\obj\Debug\_02.SenkronikAsenkronik.Form1.resources
+C:\Users\dogan\OneDrive\Masaüstü\GerekliBilgiler\02.SenkronikAsenkronik\obj\Debug\_02.SenkronikAsenkronik.Properties.Resources.resources
+C:\Users\dogan\OneDrive\Masaüstü\GerekliBilgiler\02.SenkronikAsenkronik\obj\Debug\02.SenkronikAsenkronik.csproj.GenerateResource.cache
+C:\Users\dogan\OneDrive\Masaüstü\GerekliBilgiler\02.SenkronikAsenkronik\obj\Debug\02.SenkronikAsenkronik.csproj.CoreCompileInputs.cache
+C:\Users\dogan\OneDrive\Masaüstü\GerekliBilgiler\02.SenkronikAsenkronik\obj\Debug\02.SenkronikAsenkronik.exe
+C:\Users\dogan\OneDrive\Masaüstü\GerekliBilgiler\02.SenkronikAsenkronik\obj\Debug\02.SenkronikAsenkronik.pdb
