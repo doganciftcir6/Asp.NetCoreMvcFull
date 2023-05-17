@@ -6211,19 +6211,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dogan\\.nuget\\packages\\": {}
+    "C:\\Users\\dogan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.UI\\Udemy.AdvertisementApp.UI.csproj",
+      "projectUniqueName": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.UI\\Udemy.AdvertisementApp.UI.csproj",
       "projectName": "Udemy.AdvertisementApp.UI",
-      "projectPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.UI\\Udemy.AdvertisementApp.UI.csproj",
+      "projectPath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.UI\\Udemy.AdvertisementApp.UI.csproj",
       "packagesPath": "C:\\Users\\dogan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.UI\\obj\\",
+      "outputPath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.UI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\dogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6237,8 +6242,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.Business\\Udemy.AdvertisementApp.Business.csproj": {
-              "projectPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.Business\\Udemy.AdvertisementApp.Business.csproj"
+            "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.Business\\Udemy.AdvertisementApp.Business.csproj": {
+              "projectPath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.Business\\Udemy.AdvertisementApp.Business.csproj"
             }
           }
         }
@@ -6279,7 +6284,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "34Vk14maOGeAD7S0jl+mgI0ARl3xP7azeLcx7r0ilRdrNyTmYBBWTnkEFum981QvmEq9/D8SoQHHhCrPsi5NtQ==",
+  "dgSpecHash": "lppq+GmbwjCNO4xD+Z5ue1/NmdWtQ9eDiFjEhVDPjAbRLd6jdDEmyAg7xvPGJlWJitadppQnVOSc0X11AjX5og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.DataAccess\\Udemy.TodoAppNTier.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.DataAccess\\Udemy.TodoAppNTier.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dogan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dogan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

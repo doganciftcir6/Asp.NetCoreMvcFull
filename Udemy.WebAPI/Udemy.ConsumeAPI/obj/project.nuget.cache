@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8CdseS3cAJcDx50KXg/hlBEjou7NYjtmZnyhpXsVERL6uz/ZsegUQlYO4Nx8P8ZhTVKu5N7H9oTdzs0PqvlDeA==",
+  "dgSpecHash": "21LvNBoIuzXRWhT9/TQEqcU9qbYaBw/YEoY5gX5XEB1aeK+Xc8kAunap7v8e2yVKltLDCCWtYwCiRHxF6r2Efg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.WebAPI\\Udemy.ConsumeAPI\\Udemy.ConsumeAPI.csproj",
+  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.WebAPI\\Udemy.ConsumeAPI\\Udemy.ConsumeAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dogan\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],

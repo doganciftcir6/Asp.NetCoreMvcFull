@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oLQqQV7Oe/aJKWzIJ3NsPvR+rD9lfrVn9gaj0CEAqr+BADN99djIZzfXwnL1xEUg8SzjylouxHUHj4sous1uOg==",
+  "dgSpecHash": "m0D0Ue+oB9utNKcd9sqYHzyyO0AWjjZnrGrWJgdtNNtW7neRdBISX7xqjL7SAcvdRhVEFTDQ2lVoJoFzKson4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.JwtApp\\Udemy.JwtAppFrontEnd\\Udemy.JwtAppFrontEnd.csproj",
+  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.JwtApp\\Udemy.JwtAppFrontEnd\\Udemy.JwtAppFrontEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dogan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.2\\microsoft.aspnetcore.authentication.jwtbearer.6.0.2.nupkg.sha512",
     "C:\\Users\\dogan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

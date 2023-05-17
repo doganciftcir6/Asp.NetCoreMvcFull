@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BC4rGkpFYsuuSyKzDwHmxIY0SKnn/Zjx8jRhSYn5xhc98SH3ZRv2n2e2OhMWYHqIvUslfdGG2qfsi1BDD2b4Jw==",
+  "dgSpecHash": "ssCwFYHaVTkf5j5fg54G1UnoLUCkYXl3fe5WIXclOpQRH169g6jAUzWScJrPG+1GnESRYdLBUv0jQFF0iw+uNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.UI\\Udemy.TodoAppNTier.UI.csproj",
+  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.UI\\Udemy.TodoAppNTier.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dogan\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\dogan\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",

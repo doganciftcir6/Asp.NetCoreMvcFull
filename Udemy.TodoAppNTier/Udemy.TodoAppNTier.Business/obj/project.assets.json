@@ -6114,19 +6114,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dogan\\.nuget\\packages\\": {}
+    "C:\\Users\\dogan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Business\\Udemy.TodoAppNTier.Business.csproj",
+      "projectUniqueName": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Business\\Udemy.TodoAppNTier.Business.csproj",
       "projectName": "Udemy.TodoAppNTier.Business",
-      "projectPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Business\\Udemy.TodoAppNTier.Business.csproj",
+      "projectPath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Business\\Udemy.TodoAppNTier.Business.csproj",
       "packagesPath": "C:\\Users\\dogan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Business\\obj\\",
+      "outputPath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Business\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\dogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6140,14 +6145,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Common\\Udemy.TodoAppNTier.Common.csproj": {
-              "projectPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Common\\Udemy.TodoAppNTier.Common.csproj"
+            "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Common\\Udemy.TodoAppNTier.Common.csproj": {
+              "projectPath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Common\\Udemy.TodoAppNTier.Common.csproj"
             },
-            "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.DataAccess\\Udemy.TodoAppNTier.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.DataAccess\\Udemy.TodoAppNTier.DataAccess.csproj"
+            "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.DataAccess\\Udemy.TodoAppNTier.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.DataAccess\\Udemy.TodoAppNTier.DataAccess.csproj"
             },
-            "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Dtos\\Udemy.TodoAppNTier.Dtos.csproj": {
-              "projectPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Dtos\\Udemy.TodoAppNTier.Dtos.csproj"
+            "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Dtos\\Udemy.TodoAppNTier.Dtos.csproj": {
+              "projectPath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.TodoAppNTier\\Udemy.TodoAppNTier.Dtos\\Udemy.TodoAppNTier.Dtos.csproj"
             }
           }
         }
@@ -6191,7 +6196,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Udemy.JwtApp.BackOffice.props" />
+</Project>

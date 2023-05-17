@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SrQxLpyk4Cz/RhEH7wSA168LqD6av22SW+QodWf0CvLEaYbjp8Tl/hvon4wNVG7xfywt2JkvZu9whL4env7zXA==",
+  "dgSpecHash": "/Dz9vs5lxUrCw+wA3c9TH6kb3/2kLgSAKP/uJgKCZlxKEhP/CLeaTu1zaF804Uh7vX4VG6XnCPyWqEN3PV55hQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.WebAPI\\Udemy.WebAPI\\Udemy.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.WebAPI\\Udemy.WebAPI\\Udemy.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dogan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dogan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.11\\microsoft.aspnetcore.authentication.jwtbearer.5.0.11.nupkg.sha512",

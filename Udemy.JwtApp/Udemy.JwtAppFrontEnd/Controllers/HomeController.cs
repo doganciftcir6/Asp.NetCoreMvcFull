@@ -5,7 +5,7 @@ namespace Udemy.JwtAppFrontEnd.Controllers
 {
     public class HomeController : Controller
     {
-        [Authorize(Roles = "Admin,Member")]
+
         public IActionResult Index()
         {
             return View();

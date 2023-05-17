@@ -1,0 +1,43 @@
+﻿@using System.Text.Json;
+@model ProductCreateModel
+
+@{
+    Layout = "_Layout";
+}
+
+
+<div class="container my-4  pt-4">
+    <form asp-action="Create" asp-controller="Product" method="post">
+        @{
+            //kayıt işlemi başarısız olursa seleclist verileri kaybolmasın diye var bu
+            TempData["Categories"] = JsonSerializer.Serialize(Model.Categories);
+        }
+        <div class="mb-3">
+            <label for="@Model.Name" class="form-label">Ürün Adı:</label>
+            <span asp-validation-for="@Model.Name"></span>
+            <input type="text" asp-for="@Model.Name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label for="@Model.Price" class="form-label">Ürün Fiyatı:</label>
+            <span asp-validation-for="@Model.Price"></span>
+            <input asp-for="@Model.Price" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label for="@Model.Stock" class="form-label">Ürün Stoğu:</label>
+            <span asp-validation-for="@Model.Stock"></span>
+            <input asp-for="@Model.Stock" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label for="@Model.CategoryId" class="form-label">Ürün Kategorisi:</label>
+            <select class="form-select" asp-items="@Model.Categories" asp-for="CategoryId">
+
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <button type="submit" class="btn btn-info">Kaydet</button>
+        </div>
+    </form>
+
+    <div asp-validation-summary="ModelOnly"></div>
+</div>

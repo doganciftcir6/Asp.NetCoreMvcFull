@@ -1,0 +1,21 @@
+﻿@model CategoryListResponseModel
+
+@{
+    Layout = "_Layout";
+}
+
+
+<div class="container my-4  pt-4">
+    <form asp-action="Update" asp-controller="Category" method="post">
+        <input type="hidden" asp-for="@Model.Id"/>
+        <div class="mb-3">
+            <label>Kategori Adı:</label>
+            <input type="text" asp-for="@Model.Definition" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-info">Kaydet</button>
+        </div>
+    </form>
+
+    <div asp-validation-summary="ModelOnly"></div>
+</div>

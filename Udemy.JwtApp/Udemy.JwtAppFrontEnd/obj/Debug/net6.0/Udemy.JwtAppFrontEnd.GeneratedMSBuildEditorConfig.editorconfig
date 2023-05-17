@@ -9,41 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Udemy.JwtAppFrontEnd
 build_property.RootNamespace = Udemy.JwtAppFrontEnd
-build_property.ProjectDir = C:\Users\dogan\OneDrive\Masaüstü\yavuz\Udemy.JwtApp\Udemy.JwtAppFrontEnd\
+build_property.ProjectDir = C:\Users\dogan\OneDrive\Belgeler\GitHub\Asp.NetCoreMvcFull\Udemy.JwtApp\Udemy.JwtAppFrontEnd\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\dogan\OneDrive\Masaüstü\yavuz\Udemy.JwtApp\Udemy.JwtAppFrontEnd
+build_property.MSBuildProjectDirectory = C:\Users\dogan\OneDrive\Belgeler\GitHub\Asp.NetCoreMvcFull\Udemy.JwtApp\Udemy.JwtAppFrontEnd
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/dogan/OneDrive/Masaüstü/yavuz/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Account/SignIn.cshtml]
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Account/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dogan/OneDrive/Masaüstü/yavuz/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Category/Create.cshtml]
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dogan/OneDrive/Masaüstü/yavuz/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Category/List.cshtml]
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Category/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dogan/OneDrive/Masaüstü/yavuz/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Home/AdminPage.cshtml]
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Home/AdminPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pblBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dogan/OneDrive/Masaüstü/yavuz/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Home/Index.cshtml]
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dogan/OneDrive/Masaüstü/yavuz/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Home/MemberPage.cshtml]
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Home/MemberPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW1iZXJQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dogan/OneDrive/Masaüstü/yavuz/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Shared/_Layout.cshtml]
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Product/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Product/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Shared/Components/Navbar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dogan/OneDrive/Masaüstü/yavuz/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/_ViewImports.cshtml]
+[C:/Users/dogan/OneDrive/Belgeler/GitHub/Asp.NetCoreMvcFull/Udemy.JwtApp/Udemy.JwtAppFrontEnd/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

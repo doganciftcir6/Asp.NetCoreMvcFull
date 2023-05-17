@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3TQn1yhzBbUMCJdIILw8iO1H0t9G1vcL/v7vKRZPTAsgS2WcC9x4Y7REqYB/kt11kndMo4cHxFSQTzCSkKkPAw==",
+  "dgSpecHash": "zwEZTFW3pFNfhaGtCPkWX6hYg6kCANEF8DAk56REEq7lyCBfXJGRqwO249wP7tQQaG1vRJCGpgx8qMrrXfth2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.JwtApp\\Udemy.JwtApp.BackOffice\\Udemy.JwtApp.BackOffice.csproj",
+  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.JwtApp\\Udemy.JwtApp.BackOffice\\Udemy.JwtApp.BackOffice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dogan\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\dogan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

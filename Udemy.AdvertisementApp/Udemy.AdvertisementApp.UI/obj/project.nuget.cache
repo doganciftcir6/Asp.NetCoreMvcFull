@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aTJkblTurBu7BQE9DLx+eijxQtD1wq6OFugr5YV49ZtR89RrgVcNrT5KsDvnTTAytLYrjOSsrNA+2zckY3nQYQ==",
+  "dgSpecHash": "PLt54Q91KrrMtLBqDM+nIj04YqV50WJt9BSIQkB9TkdxPavbD1PJ7NanRH/HwGn1vewBiJqgraKAmKxU1xxRgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\yavuz\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.UI\\Udemy.AdvertisementApp.UI.csproj",
+  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreMvcFull\\Udemy.AdvertisementApp\\Udemy.AdvertisementApp.UI\\Udemy.AdvertisementApp.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dogan\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\dogan\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
