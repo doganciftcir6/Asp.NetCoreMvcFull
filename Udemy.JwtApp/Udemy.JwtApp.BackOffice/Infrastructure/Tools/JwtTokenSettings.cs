@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace Udemy.JwtApp.BackOffice.Infrastructure.Tools
+﻿namespace Udemy.JwtApp.BackOffice.Infrastructure.Tools
 {
     //TOKEN BİLGİLERİNİ TUTACAĞIMIZ YER AYARLAMALARINI YAPACAĞIMIZ YER.
     public class JwtTokenSettings

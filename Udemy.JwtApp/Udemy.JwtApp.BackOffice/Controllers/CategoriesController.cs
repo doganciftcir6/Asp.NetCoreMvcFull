@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Udemy.JwtApp.BackOffice.Core.Application.Features.CQRS.Commands;
 using Udemy.JwtApp.BackOffice.Core.Application.Features.CQRS.Queries;

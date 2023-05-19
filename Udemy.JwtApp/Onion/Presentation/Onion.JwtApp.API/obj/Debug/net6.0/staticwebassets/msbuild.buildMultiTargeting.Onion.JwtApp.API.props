@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Onion.JwtApp.API.props" />
+</Project>

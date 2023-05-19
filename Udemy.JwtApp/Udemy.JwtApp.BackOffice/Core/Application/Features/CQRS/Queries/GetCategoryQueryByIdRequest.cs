@@ -11,7 +11,7 @@ namespace Udemy.JwtApp.BackOffice.Core.Application.Features.CQRS.Queries
         //bana bir id değeri gelsin ve ben bu gelen id değerini bu classın içindeki id propuna atayım.
         public GetCategoryQueryByIdRequest(int id)
         {
-            this.Id = id;  
+            this.Id = id;
         }
     }
 }

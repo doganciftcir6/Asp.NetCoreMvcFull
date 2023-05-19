@@ -26,7 +26,7 @@ namespace Udemy.JwtApp.BackOffice.Core.Application.Features.CQRS.Handlers
 
             //önce user'a gidip bakalım dışarıdan kullanıcı adı ve şifresiyle giriş yapmaya çalışan kullanıcının kullanıcı adı ve şifresi db de var mı diye.
             var user = await _userRepository.GetByFilterAsync(x => x.Username == request.Username && x.Password == request.Password);
-            if(user == null)
+            if (user == null)
             {
                 //eğer kayıt yok ise 
                 dto.IsExist = false;

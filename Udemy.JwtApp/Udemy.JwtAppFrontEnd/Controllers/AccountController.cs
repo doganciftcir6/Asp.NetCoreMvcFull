@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.Security.Principal;
 using System.Text;
 using System.Text.Json;
 using Udemy.JwtAppFrontEnd.Models;
@@ -35,7 +34,7 @@ namespace Udemy.JwtAppFrontEnd.Controllers
             //önce api tarafındaki http://localhost:5098 ile bir request atıcaz.
             var client = _httpClientFactory.CreateClient();
             //modelimizi Json bilgiye çeviricez.
-            var requestContent = new StringContent(JsonSerializer.Serialize(model),Encoding.UTF8,"application/json");
+            var requestContent = new StringContent(JsonSerializer.Serialize(model), Encoding.UTF8, "application/json");
             //bu noktaya istek yapacaksın diyoruz
             var response = await client.PostAsync("http://localhost:5098/api/Auth/SignIn", requestContent);
             //dönen cevap başarılıysa diye bir kontrol.
@@ -54,7 +53,7 @@ namespace Udemy.JwtAppFrontEnd.Controllers
                 JwtSecurityTokenHandler handler = new JwtSecurityTokenHandler();
                 var token = handler.ReadJwtToken(tokenModel?.Token);
                 //artık elimde doğrudan token'ın kendisi var.
-                if(token != null)
+                if (token != null)
                 {
                     //AŞAĞIDAKİ GİBİ BİR KULLANIM YAPABİLİRİZ KULLANILAN BİR YAPIDIR.
                     ////tokenın içerisindeki claimleri alalım. role bilgilerini alalım.
@@ -66,9 +65,9 @@ namespace Udemy.JwtAppFrontEnd.Controllers
 
 
                     var claims = token.Claims.ToList();
-                    claims.Add(new Claim("accessToken", tokenModel?.Token == null ? "":tokenModel.Token));
+                    claims.Add(new Claim("accessToken", tokenModel?.Token == null ? "" : tokenModel.Token));
 
-                    ClaimsIdentity identity = new ClaimsIdentity(claims,JwtBearerDefaults.AuthenticationScheme);
+                    ClaimsIdentity identity = new ClaimsIdentity(claims, JwtBearerDefaults.AuthenticationScheme);
                     var authProps = new AuthenticationProperties()
                     {
                         //tokenın süresini sürekli yenilemesin diye
@@ -78,7 +77,7 @@ namespace Udemy.JwtAppFrontEnd.Controllers
                         IsPersistent = true,
                     };
 
-                   await HttpContext.SignInAsync(JwtBearerDefaults.AuthenticationScheme, new ClaimsPrincipal(identity), authProps);
+                    await HttpContext.SignInAsync(JwtBearerDefaults.AuthenticationScheme, new ClaimsPrincipal(identity), authProps);
                     return RedirectToAction("Index", "Home");
                 }
                 else

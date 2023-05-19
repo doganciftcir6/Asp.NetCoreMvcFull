@@ -1,10 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Udemy.JwtApp.BackOffice.Core.Application.Features.CQRS.Commands;
-using Udemy.JwtApp.BackOffice.Core.Application.Features.CQRS.Handlers;
 using Udemy.JwtApp.BackOffice.Core.Application.Features.CQRS.Queries;
 
 namespace Udemy.JwtApp.BackOffice.Controllers
@@ -25,9 +23,9 @@ namespace Udemy.JwtApp.BackOffice.Controllers
         [HttpGet]
         public async Task<IActionResult> List()
         {
-           //Send ile requestimizi göndermiş olalım ve result'ı bekleyelim.
-           var result = await _mediator.Send(new GetAllProductsQueryRequest());
-           return Ok(result);
+            //Send ile requestimizi göndermiş olalım ve result'ı bekleyelim.
+            var result = await _mediator.Send(new GetAllProductsQueryRequest());
+            return Ok(result);
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)

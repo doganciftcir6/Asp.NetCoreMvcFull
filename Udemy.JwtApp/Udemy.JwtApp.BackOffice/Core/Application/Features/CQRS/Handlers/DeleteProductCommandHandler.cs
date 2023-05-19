@@ -21,13 +21,13 @@ namespace Udemy.JwtApp.BackOffice.Core.Application.Features.CQRS.Handlers
             //silmem gereken kayıdı bulmalıyım.
             var deletedEntity = await _repository.GetByIdAsync(request.Id);
             //eğer null değilse yani ilgili ıd'deki kayıt bulunduysa işlemi gerçekleştir.
-            if(deletedEntity != null)
+            if (deletedEntity != null)
             {
                 await _repository.RemoveAsync(deletedEntity);
             }
             //eğer ıd deki kayıt bulunmadıysa geriye boş dön demek gibi bir şey bu.
             return Unit.Value;
-            
+
         }
     }
 }

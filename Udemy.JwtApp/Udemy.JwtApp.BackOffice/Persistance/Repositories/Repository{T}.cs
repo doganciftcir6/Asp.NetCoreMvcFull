@@ -43,7 +43,7 @@ namespace Udemy.JwtApp.BackOffice.Persistance.Repositories
 
         public async Task RemoveAsync(T entity)
         {
-             _context.Set<T>().Remove(entity);
+            _context.Set<T>().Remove(entity);
             await _context.SaveChangesAsync();
         }
 

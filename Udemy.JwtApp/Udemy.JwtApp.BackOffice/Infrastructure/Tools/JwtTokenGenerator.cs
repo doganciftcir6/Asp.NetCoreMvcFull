@@ -3,7 +3,6 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Udemy.JwtApp.BackOffice.Core.Application.Dtos;
-using Udemy.JwtApp.BackOffice.Core.Domain;
 
 namespace Udemy.JwtApp.BackOffice.Infrastructure.Tools
 {
@@ -26,9 +25,9 @@ namespace Udemy.JwtApp.BackOffice.Infrastructure.Tools
             //token sonlanma tarihi bunu frontend'de göstermek istiyorum.
             var expireDate = DateTime.UtcNow.AddMinutes(JwtTokenSettings.Expire);
 
-            JwtSecurityToken token = new JwtSecurityToken(issuer:JwtTokenSettings.Issuer,audience:JwtTokenSettings.Audience,claims:claims,notBefore:DateTime.UtcNow,expires:expireDate, signingCredentials: credentials);
+            JwtSecurityToken token = new JwtSecurityToken(issuer: JwtTokenSettings.Issuer, audience: JwtTokenSettings.Audience, claims: claims, notBefore: DateTime.UtcNow, expires: expireDate, signingCredentials: credentials);
 
-            return new JwtTokenResponse(handler.WriteToken(token),expireDate);
+            return new JwtTokenResponse(handler.WriteToken(token), expireDate);
         }
     }
 }

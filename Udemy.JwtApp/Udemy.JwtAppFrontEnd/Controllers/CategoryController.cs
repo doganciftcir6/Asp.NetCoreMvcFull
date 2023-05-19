@@ -50,9 +50,9 @@ namespace Udemy.JwtAppFrontEnd.Controllers
 
             //artık isteiğimi yapabilirim
             var response = await client.DeleteAsync($"http://localhost:5098/api/Categories/{id}");
-            if(response.StatusCode == HttpStatusCode.Unauthorized)
+            if (response.StatusCode == HttpStatusCode.Unauthorized)
             {
-                return RedirectToAction("SignIn","Auth");
+                return RedirectToAction("SignIn", "Auth");
             }
             return RedirectToAction("List");
 
@@ -69,7 +69,7 @@ namespace Udemy.JwtAppFrontEnd.Controllers
             {
                 //token bilgime nasıl erişicem
                 var token = User.Claims.SingleOrDefault(x => x.Type == "accessToken")?.Value;
-                if(token != null)
+                if (token != null)
                 {
                     //clienti ele alıcam
                     var client = _httpClientFactory.CreateClient();
@@ -77,7 +77,7 @@ namespace Udemy.JwtAppFrontEnd.Controllers
                     client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
                     var jsonData = JsonSerializer.Serialize(model);
-                    var content = new StringContent(jsonData, Encoding.UTF8,"application/json");
+                    var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
                     var response = await client.PostAsync("http://localhost:5098/api/Categories", content);
                     if (response.IsSuccessStatusCode)
                     {
@@ -103,7 +103,7 @@ namespace Udemy.JwtAppFrontEnd.Controllers
                 //token'ı nasıl göndericem
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-               var response = await client.GetAsync($"http://localhost:5098/api/Categories/{id}");
+                var response = await client.GetAsync($"http://localhost:5098/api/Categories/{id}");
                 if (response.IsSuccessStatusCode)
                 {
                     //başarılıysa isteğim response'ın contentini okucam

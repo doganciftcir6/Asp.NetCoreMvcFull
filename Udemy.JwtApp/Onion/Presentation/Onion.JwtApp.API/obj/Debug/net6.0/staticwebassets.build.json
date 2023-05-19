@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5lQSR+gvpDff4cl233khsGqzvKXe/TfwkKink8Y3BI4=",
+  "Source": "Onion.JwtApp.API",
+  "BasePath": "_content/Onion.JwtApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -48,7 +48,7 @@ builder.Services.AddAutoMapper(opt =>
 });
 
 //jwt için corse CONFÝGURESÝ
-builder.Services.AddCors(opt=>
+builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("GlobalCors", config =>
     {

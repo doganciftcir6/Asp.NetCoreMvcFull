@@ -21,7 +21,7 @@ namespace Udemy.JwtApp.BackOffice.Core.Application.Features.CQRS.Handlers
             //önce update edeceğimiz kayıdı çekelim.
             var updatedProduct = await _repository.GetByIdAsync(request.Id);
             //ıd ye sahip kayıt db de varsa işlem yapılır.
-            if(updatedProduct != null)
+            if (updatedProduct != null)
             {
                 //dbde bulunan kayıdın alanlarına dışarıdan gelen alanların bilgisini atıp güncelleyelim.
                 updatedProduct.CategoryId = request.CategoryId;
@@ -29,7 +29,7 @@ namespace Udemy.JwtApp.BackOffice.Core.Application.Features.CQRS.Handlers
                 updatedProduct.Price = request.Price;
                 updatedProduct.Name = request.Name;
 
-               await _repository.UpdateAsync(updatedProduct);
+                await _repository.UpdateAsync(updatedProduct);
             }
             return Unit.Value;
         }
