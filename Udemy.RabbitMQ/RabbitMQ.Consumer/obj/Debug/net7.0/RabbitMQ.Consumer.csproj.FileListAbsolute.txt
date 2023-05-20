@@ -1,0 +1,17 @@
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\bin\Debug\net7.0\RabbitMQ.Consumer.exe
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\bin\Debug\net7.0\RabbitMQ.Consumer.deps.json
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\bin\Debug\net7.0\RabbitMQ.Consumer.runtimeconfig.json
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\bin\Debug\net7.0\RabbitMQ.Consumer.dll
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\bin\Debug\net7.0\RabbitMQ.Consumer.pdb
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\obj\Debug\net7.0\RabbitMQ.Consumer.csproj.AssemblyReference.cache
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\obj\Debug\net7.0\RabbitMQ.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\obj\Debug\net7.0\RabbitMQ.Consumer.AssemblyInfoInputs.cache
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\obj\Debug\net7.0\RabbitMQ.Consumer.AssemblyInfo.cs
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\obj\Debug\net7.0\RabbitMQ.Consumer.csproj.CoreCompileInputs.cache
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\obj\Debug\net7.0\RabbitMQ.Consumer.csproj.CopyComplete
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\obj\Debug\net7.0\RabbitMQ.Consumer.dll
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\obj\Debug\net7.0\refint\RabbitMQ.Consumer.dll
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\obj\Debug\net7.0\RabbitMQ.Consumer.pdb
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\obj\Debug\net7.0\RabbitMQ.Consumer.genruntimeconfig.cache
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Udemy.RabbitMQ\RabbitMQ.Consumer\obj\Debug\net7.0\ref\RabbitMQ.Consumer.dll
