@@ -19,6 +19,11 @@ namespace Onion.JwtApp.Persistence.Repositories
             _jwtContext = jwtContext;
         }
 
+        public async Task<int> CommitAsync()
+        {
+            return await _jwtContext.SaveChangesAsync();
+        }
+
         public async Task<T?> CreateAsync(T entity)
         {
             _jwtContext.Set<T>().Add(entity);

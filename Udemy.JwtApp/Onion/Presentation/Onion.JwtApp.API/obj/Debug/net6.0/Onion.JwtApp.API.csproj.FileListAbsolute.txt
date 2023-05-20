@@ -77,3 +77,4 @@ C:\Users\dogan\OneDrive\Belgeler\GitHub\Asp.NetCoreMvcFull\Udemy.JwtApp\Onion\Pr
 C:\Users\dogan\OneDrive\Belgeler\GitHub\Asp.NetCoreMvcFull\Udemy.JwtApp\Onion\Presentation\Onion.JwtApp.API\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\Users\dogan\OneDrive\Belgeler\GitHub\Asp.NetCoreMvcFull\Udemy.JwtApp\Onion\Presentation\Onion.JwtApp.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\dogan\OneDrive\Belgeler\GitHub\Asp.NetCoreMvcFull\Udemy.JwtApp\Onion\Presentation\Onion.JwtApp.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dogan\OneDrive\Belgeler\GitHub\Asp.NetCoreMvcFull\Udemy.JwtApp\Onion\Presentation\Onion.JwtApp.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

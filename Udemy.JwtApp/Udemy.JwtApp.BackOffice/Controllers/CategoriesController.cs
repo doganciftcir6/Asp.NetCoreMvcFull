@@ -31,6 +31,7 @@ namespace Udemy.JwtApp.BackOffice.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByIdCategory(int id)
         {
+            //GetCategoryQueryByIdRequest in ctoruna veriyoruz bu routetan gelen idyi.
             var result = await _mediator.Send(new GetCategoryQueryByIdRequest(id));
             return Ok(result);
         }
@@ -52,6 +53,7 @@ namespace Udemy.JwtApp.BackOffice.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
+            //DeleteCategoryCommandRequest in ctoruna veriyoruz bu routetan gelen idyi.
             await _mediator.Send(new DeleteCategoryCommandRequest(id));
             return NoContent();
         }

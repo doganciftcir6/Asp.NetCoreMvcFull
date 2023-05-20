@@ -1,11 +1,14 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Onion.JwtApp.Application.Features.CQRS.Commands;
 using Onion.JwtApp.Application.Features.CQRS.Queries;
+using System.Data;
 
 namespace Onion.JwtApp.API.Controllers
 {
+    [Authorize(Roles = "Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase
@@ -25,6 +28,7 @@ namespace Onion.JwtApp.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
+            //GetCategoryQueryRequest in ctoruna veriyoruz bu routetan gelen idyi.
             var result = await _mediator.Send(new GetCategoryQueryRequest(id));
             return Ok(result);
         }
@@ -43,6 +47,7 @@ namespace Onion.JwtApp.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Remove(int id)
         {
+            //RemoveCategoryCommandRequest in ctoruna veriyoruz bu routetan gelen idyi.
             await _mediator.Send(new RemoveCategoryCommandRequest(id));
             return Ok();
         }

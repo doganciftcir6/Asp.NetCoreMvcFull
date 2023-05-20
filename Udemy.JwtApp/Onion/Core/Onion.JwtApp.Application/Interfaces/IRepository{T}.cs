@@ -10,6 +10,7 @@ namespace Onion.JwtApp.Application.Interfaces
         Task<T?> GetByFilterAsync(Expression<Func<T, bool>> filter);
         Task<T?> CreateAsync(T entity);
         Task UpdateAsync(T entity);
+        Task<int> CommitAsync();
         Task RemoveAsync(T entity);
     }
 }

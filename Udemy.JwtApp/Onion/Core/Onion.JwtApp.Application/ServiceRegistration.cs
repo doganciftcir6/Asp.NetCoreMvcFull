@@ -22,6 +22,7 @@ namespace Onion.JwtApp.Application
                     //automapper profilleri buraya eklicez.
                     new CategoryProfile(),
                     new ProductProfile(),
+                    new AppUserProfile(),
                 });
             });
         }

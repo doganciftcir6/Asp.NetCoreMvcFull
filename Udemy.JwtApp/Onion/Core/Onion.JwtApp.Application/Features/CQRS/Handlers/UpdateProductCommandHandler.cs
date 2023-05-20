@@ -21,6 +21,7 @@ namespace Onion.JwtApp.Application.Features.CQRS.Handlers
         public async Task<Unit> Handle(UpdateProductCommandRequest request, CancellationToken cancellationToken)
         {
             //track özelliği bulunan bir repo metota ihtiyacımız var o yüzden getbyıd.
+            //connected entity çalıştığımız için, olduğu için (getbyıd olayı bunu connected hale getiriyor ounu yerine sıfırndan product nesnesi örnekleyip yapsak disconnected çalışmış olurduk ve repo update metotuna ihtiyacımız olurdu) repo update metotuma ihtiyacım yok zaten state modify olarak setleniyor.
             var updatedEntity = await _repository.GetByIdAsync(request.Id);
             if(updatedEntity != null)
             {
@@ -28,7 +29,8 @@ namespace Onion.JwtApp.Application.Features.CQRS.Handlers
                 updatedEntity.Price = request.Price;
                 updatedEntity.Stock = request.Stock;
                 updatedEntity.CategoryId = request.CategoryId;
-                await _repository.UpdateAsync(updatedEntity);
+                //await _repository.UpdateAsync(updatedEntity);
+                await _repository.CommitAsync();
             }
             return Unit.Value;
         }

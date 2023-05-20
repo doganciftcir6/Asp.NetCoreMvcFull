@@ -30,6 +30,7 @@ namespace Udemy.JwtApp.BackOffice.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
+            //GetProductQueryByIdRequest in ctoruna veriyoruz bu routetan gelen idyi.
             var result = await _mediator.Send(new GetProductQueryByIdRequest(id));
             return result == null ? NotFound() : Ok(result);
         }
@@ -37,7 +38,8 @@ namespace Udemy.JwtApp.BackOffice.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var result = await _mediator.Send(new DeleteProductCommandRequest(id));
+            //DeleteProductCommandRequest in ctoruna veriyoruz bu routetan gelen idyi.
+            await _mediator.Send(new DeleteProductCommandRequest(id));
             return NoContent();
         }
 

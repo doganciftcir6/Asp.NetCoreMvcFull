@@ -45,9 +45,6 @@ namespace Udemy.JwtApp.BackOffice.Controllers
             }
             //check işlemi başarılı değildir
             return BadRequest("Username veya password yanlıştır.");
-
         }
-
-
     }
 }
